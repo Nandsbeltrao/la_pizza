@@ -1,0 +1,48 @@
+@mixin titulo(){
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+}
+
+@mixin flexbox(){
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+
+    img{
+      width: 100%;  
+    }
+    
+}
+
+.container{
+    @include titulo();
+    font-size: 3rem;
+    font-weight: 580;
+    margin-top: 16rem;
+    text-align: center;
+
+    }
+
+.primeira-sessao{
+    background-image: url("./imgs/fundo.png");
+    background-size: cover;
+    @include flexbox();
+    
+    
+
+    div{
+        background-color: #FFF5DE ;
+        margin-top: 15rem;
+    }
+}

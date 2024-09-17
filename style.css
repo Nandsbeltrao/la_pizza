@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header img {
+  width: 100%;
+}
+
+.container {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-size: 3rem;
+  font-weight: 580;
+  margin-top: 16rem;
+  text-align: center;
+}
+
+.primeira-sessao {
+  background-image: url("./imgs/fundo.png");
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+}
+.primeira-sessao div {
+  background-color: #FFF5DE;
+  margin-top: 15rem;
+}/*# sourceMappingURL=style.css.map */
