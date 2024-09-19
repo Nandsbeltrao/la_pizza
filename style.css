@@ -13,7 +13,7 @@ header img {
   font-size: 1rem;
   font-size: 3rem;
   font-weight: 580;
-  margin-top: 16rem;
+  margin-top: 6rem;
   text-align: center;
 }
 
@@ -22,8 +22,90 @@ header img {
   background-size: cover;
   display: flex;
   justify-content: space-between;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  padding: 13rem;
 }
 .primeira-sessao div {
-  background-color: #FFF5DE;
-  margin-top: 15rem;
+  background-color: #FEFBF4;
+  border: solid #FFF5DE;
+  border-radius: 20px;
+  width: 17vw;
+  height: 45vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 7rem;
+}
+.primeira-sessao div img {
+  width: 52%;
+  margin-left: 0.5rem;
+  position: relative;
+  top: -60px;
+}
+.primeira-sessao div .icon_fav {
+  width: 11%;
+  margin-top: -13rem;
+  margin-left: 17rem;
+  position: relative;
+}
+.primeira-sessao div h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-size: 1.5rem;
+  margin-top: -1rem;
+}
+.primeira-sessao div p {
+  text-align: center;
+  margin-top: -1rem;
+}
+.primeira-sessao div h3 {
+  font-size: 2rem;
+}
+.primeira-sessao div button {
+  margin-bottom: -0.7rem;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 27px;
+  background-color: #FFBD48;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.segunda-sessao {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+}
+.segunda-sessao img {
+  margin: 6rem;
+  margin-left: 20rem;
+  width: 30%;
+}
+.segunda-sessao div .titulo {
+  width: 25%;
+  margin-left: 0;
+  margin-top: 12rem;
+}
+.segunda-sessao div p {
+  font-size: 1.5rem;
+  width: 60%;
+  margin-top: -4rem;
+}
+.segunda-sessao div button {
+  margin-top: 1.5rem;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 27px;
+  background-color: #FFBD48;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */

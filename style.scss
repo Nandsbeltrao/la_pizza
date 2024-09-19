@@ -29,7 +29,7 @@ header{
     @include titulo();
     font-size: 3rem;
     font-weight: 580;
-    margin-top: 16rem;
+    margin-top: 6rem;
     text-align: center;
 
     }
@@ -38,11 +38,102 @@ header{
     background-image: url("./imgs/fundo.png");
     background-size: cover;
     @include flexbox();
+    @include titulo();
+    padding: 13rem;
     
+    
+    div{
+        background-color: #FEFBF4 ;
+        border: solid #FFF5DE;
+        border-radius: 20px;
+        width: 17vw;
+        height: 45vh;
+        @include flexbox();
+        flex-direction: column;
+        align-items: center;
+        margin-top: 7rem;
     
 
+        img{
+            width: 52%;
+            margin-left: 0.5rem;
+            position: relative;
+            top: -60px;
+        }
+        
+        .icon_fav{
+            width: 11%;
+            margin-top: -13rem;
+            margin-left: 17rem;
+            position: relative;
+            
+        }
+
+        h2{
+            @include titulo();
+            font-size: 1.5rem;
+            margin-top: -1rem;
+        }
+
+        p{
+            text-align: center;
+            margin-top: -1rem;
+        }
+
+        h3{
+            font-size: 2rem;
+        }
+
+        button{
+            margin-bottom: -0.7rem;
+            padding: 0.8rem 2rem;
+            border: none;
+            border-radius: 27px;
+            background-color: #FFBD48 ;
+            @include titulo();
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+    }
+}
+
+.segunda-sessao{
+    @include flexbox();
+    @include titulo();
+    
+    img{
+        margin: 6rem;
+        margin-left: 20rem;
+        width: 30%;
+    }
+
     div{
-        background-color: #FFF5DE ;
-        margin-top: 15rem;
+        
+        .titulo{
+            width: 25%;
+            margin-left: 0;
+            margin-top: 12rem;
+            
+        }
+
+        p{
+            font-size: 1.5rem;
+            width: 60%;
+            margin-top: -4rem;
+        }
+
+        button{
+            margin-top: 1.5rem;
+            padding: 0.8rem 2rem;
+            border: none;
+            border-radius: 27px;
+            background-color: #FFBD48 ;
+            @include titulo();
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+        }
     }
 }
